@@ -1,0 +1,18 @@
+const socket = io(SERVERURL, {
+  transports: ['websocket', 'polling', 'flashsocket'],
+  path: '/SERVERPATH',
+  forceNew: true,
+  reconnectionAttempts: 3,
+
+  if(output.clientHeight >= outputContainer.clientHeight){
+    resize_to_fit();
+  }
+}
+function processInput() { 
+  output.innerHTML =this.value;
+  output.style.fontSize = '100px'; // Default font size
+  resize_to_fit();
+
+const input = document.querySelector('input');
+const output = document.querySelector('.output');
+const outputContainer = document.querySelector('.container');
